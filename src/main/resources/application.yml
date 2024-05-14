@@ -1,0 +1,16 @@
+
+
+spring:
+  application:
+    name: test
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8 #jdbc连接mysql数据库
+    username: root
+    password: 12345678
+    driver-class-name: com.mysql.cj.jdbc.Driver #加载jdbc驱动
+
+# mybatis映射文件设置，但没时间写xml映射文件了
+#mybatis:
+#  type-aliases-package: ??????????
+#  mapper-locations: classpath:mapper/*.xml  # ????Mapper XML????resources/mapper???
+
